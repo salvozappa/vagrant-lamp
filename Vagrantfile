@@ -14,6 +14,7 @@ Vagrant.configure(2) do |config|
   config.vm.network "forwarded_port", guest: 80, host: 8080
   
   # Shared folders
-  config.vm.synced_folder '.', '/vagrant'
+  config.vm.synced_folder '.', '/vagrant',
+    owner: "www-data", group: "www-data"
 
 end
