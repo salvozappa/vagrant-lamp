@@ -35,6 +35,7 @@ echo "
 xdebug.remote_enable=on
 xdebug.remote_connect_back=on
 xdebug.idekey=\"vagrant\"
+xdebug.max_nesting_level=1024
 " >> /etc/php5/mods-available/xdebug.ini
 
 echo -e "--- Restarting Apache... ---\n"
