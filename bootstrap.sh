@@ -49,3 +49,4 @@ if ! [ -L /var/www ]; then
 fi
 
 echo -e "\n--- Done. Happy coding! ---\n"
+echo -e "\n--- You can reach this webserver at http://localhost:8080/ ---\n"
