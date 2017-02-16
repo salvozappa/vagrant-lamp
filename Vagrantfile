@@ -1,7 +1,7 @@
 Vagrant.configure(2) do |config|
 
   # Set base box and provisioning
-  config.vm.box = "ubuntu/trusty64"
+  config.vm.box = "ubuntu/xenial64"
   config.vm.provision :shell, path: "bootstrap.sh"
 
   # Provider resources
