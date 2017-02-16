@@ -5,7 +5,7 @@ This is my minimal vagrant LAMP stack configuration.
 # Installed software
 
 * Apache
-* php5 with essential modules (look on `bootstrap.sh` for details)
+* Php with essential modules (look on `bootstrap.sh` for details)
 * MySQL
 * Xdebug
 
